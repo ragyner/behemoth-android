@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#111722"
+    android:layout_marginBottom="10dp">
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habit name"
+        android:textColor="#e9f2ff"
+        android:hintTextColor="#90a4b8"
+        android:background="#141a24"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:is24HourView="true"/>
+
+        <EditText
+            android:id="@+id/bydayInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:hint="BYDAY (e.g. MO,TU,WE or leave blank for daily)"
+            android:textColor="#e9f2ff"
+            android:hintTextColor="#90a4b8"
+            android:background="#141a24"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>

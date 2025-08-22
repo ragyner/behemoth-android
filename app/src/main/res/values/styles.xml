@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Behemoth" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="colorPrimary">#0b0f14</item>
+        <item name="colorPrimaryVariant">#111722</item>
+        <item name="colorSecondary">#ef4444</item>
+    </style>
+</resources>
